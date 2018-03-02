@@ -16,7 +16,10 @@ class MainActivity : AppCompatActivity() {
         //TestCreateOperator(this).fromIterable()
         //TestCreateOperator(this).deferOvservable()
         //TestCreateOperator(this).timerObservable()
-        TestCreateOperator(this).intervalObservable()
+
+        //TestCreateOperator(this).intervalObservable()//无线次数轮询
+        //TestCreateOperator(this).intervalRanangeObservable() 有限次数轮询
+        TestCreateOperator(this).rangeObservable()
     }
 
 
