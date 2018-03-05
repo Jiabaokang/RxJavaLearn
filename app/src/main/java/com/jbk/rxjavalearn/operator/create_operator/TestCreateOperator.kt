@@ -1,9 +1,10 @@
-package com.jbk.rxjavalearn
+package com.jbk.rxjavalearn.operator.create_operator
 
 import android.app.Activity
-import android.nfc.Tag
+import android.support.v7.app.AppCompatActivity
 import android.util.Log
 import android.widget.Toast
+import com.jbk.rxjavalearn.MainActivity
 import io.reactivex.Observable
 import io.reactivex.ObservableOnSubscribe
 import io.reactivex.Observer
@@ -16,7 +17,7 @@ import java.util.concurrent.TimeUnit
  * @desc    Rxjava 创建操作符
  * @company bqjr
  */
-class TestCreateOperator constructor(activity: MainActivity) {//主构造函数
+class TestCreateOperator constructor(activity: AppCompatActivity) {//主构造函数
 
     val TAG = "RxJava"
     var money = 1000;
@@ -28,7 +29,7 @@ class TestCreateOperator constructor(activity: MainActivity) {//主构造函数
     /**
      * 子构造函数
      */
-    constructor(activity: MainActivity,type: String) : this(activity){
+    constructor(activity: MainActivity, type: String) : this(activity){
         mContext = activity
         rxjvaOperatorName = type
     }

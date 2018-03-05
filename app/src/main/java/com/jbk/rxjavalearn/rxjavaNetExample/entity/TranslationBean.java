@@ -1,4 +1,4 @@
-package com.jbk.rxjavalearn.rxjavaNetExample;
+package com.jbk.rxjavalearn.rxjavaNetExample.entity;
 
 /**
  * Created on 2018/3/2 17:18
@@ -8,7 +8,7 @@ package com.jbk.rxjavalearn.rxjavaNetExample;
  * @company bqjr
  */
 
-public class Translation {
+public class TranslationBean {
 
     private int status;
 
@@ -19,6 +19,25 @@ public class Translation {
         private String vendor;
         private String out;
         private int errNo;
+
+        @Override
+        public String toString() {
+            return "content{" +
+                    "from='" + from + '\'' +
+                    ", to='" + to + '\'' +
+                    ", vendor='" + vendor + '\'' +
+                    ", out='" + out + '\'' +
+                    ", errNo=" + errNo +
+                    '}';
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "TranslationBean{" +
+                "status=" + status +
+                ", content=" + content.toString() +
+                '}';
     }
 
     //定义 输出返回数据 的方法
