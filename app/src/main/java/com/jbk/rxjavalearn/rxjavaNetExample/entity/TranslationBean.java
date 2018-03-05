@@ -30,6 +30,7 @@ public class TranslationBean {
                     ", errNo=" + errNo +
                     '}';
         }
+
     }
 
     @Override

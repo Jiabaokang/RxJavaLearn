@@ -21,6 +21,7 @@ class CreateOperatorActivity : AppCompatActivity() {
         //TestCreateOperator(this).intervalObservable()//无线次数轮询
         //TestCreateOperator(this).intervalRanangeObservable() 有限次数轮询
         TestCreateOperator(this).rangeObservable()
+
     }
 
 

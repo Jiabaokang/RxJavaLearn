@@ -295,7 +295,6 @@ class TestCreateOperator constructor(activity: AppCompatActivity) {//主构造�
                     override fun onComplete() {
                         Log.i(TAG, "循环结束")
                     }
-
                 })
     }
 
