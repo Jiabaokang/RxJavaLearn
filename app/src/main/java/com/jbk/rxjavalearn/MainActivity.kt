@@ -4,7 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
-import com.jbk.rxjavalearn.operator.change.ChangeOperatorActivity
+import com.jbk.rxjavalearn.operator.change_operator.ChangeOperatorActivity
 import com.jbk.rxjavalearn.operator.create_operator.CreateOperatorActivity
 import com.jbk.rxjavalearn.rxjavaNetExample.view.RetrofitRxjavaActivity
 import kotlinx.android.synthetic.main.activity_main.*
