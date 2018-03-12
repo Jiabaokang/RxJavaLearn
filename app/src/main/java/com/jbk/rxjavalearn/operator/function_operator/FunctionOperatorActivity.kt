@@ -34,7 +34,8 @@ class FunctionOperatorActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_function_operator)
         //测试Rxjava功能操作符
-        TestFunctionOperator().testSubsribe()
+        //TestFunctionOperator().testSubsribe()
+        TestFunctionOperator().testScheduler()
 
         setSupportActionBar(toolbar)
         // Create the adapter that will return a fragment for each of the three
