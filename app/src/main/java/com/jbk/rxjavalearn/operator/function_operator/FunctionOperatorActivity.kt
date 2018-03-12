@@ -36,9 +36,6 @@ class FunctionOperatorActivity : AppCompatActivity() {
         //测试Rxjava功能操作符
         TestFunctionOperator().testSubsribe()
 
-
-
-
         setSupportActionBar(toolbar)
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
