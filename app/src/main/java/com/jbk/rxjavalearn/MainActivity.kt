@@ -8,6 +8,7 @@ import com.jbk.rxjavalearn.operator.change_operator.ChangeOperatorActivity
 import com.jbk.rxjavalearn.operator.create_operator.CreateOperatorActivity
 import com.jbk.rxjavalearn.operator.function_operator.FunctionOperatorActivity
 import com.jbk.rxjavalearn.operator.group_and_merge_operator.GroupAndMergeActivity
+import com.jbk.rxjavalearn.rxjavaNetExample.view.NetworkRequstExampleActivity
 import com.jbk.rxjavalearn.rxjavaNetExample.view.RetrofitRxjavaActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         tv_network_example.setOnClickListener {
-            getaIntent(RetrofitRxjavaActivity::class.java)
+            getaIntent(NetworkRequstExampleActivity::class.java)
         }
 
         tv_group_merge_operator.setOnClickListener{

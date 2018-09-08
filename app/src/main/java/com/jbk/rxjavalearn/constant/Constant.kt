@@ -13,4 +13,8 @@ object Constant {
     const val ERROR_EVENT = "处理接受到的错误事件"
 
     const val COMPLET_EVENT = "处理接受到的完成事件"
+
+    const val BASE_URL = "http://fy.iciba.com/"
+
+
 }

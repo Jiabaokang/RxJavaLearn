@@ -26,13 +26,17 @@
         <activity android:name=".rxjavaNetExample.view.RetrofitRxjavaActivity" />
         <activity android:name=".operator.create_operator.CreateOperatorActivity" />
         <activity android:name=".operator.change_operator.ChangeOperatorActivity" />
+
         <activity
             android:name=".operator.group_and_merge_operator.GroupAndMergeActivity"
             android:label="@string/title_activity_group_and_merge" />
+
         <activity
             android:name=".operator.function_operator.FunctionOperatorActivity"
             android:label="@string/title_activity_function_operator"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".rxjavaNetExample.view.NetworkRequstExampleActivity"/>
     </application>
 
 </manifest>

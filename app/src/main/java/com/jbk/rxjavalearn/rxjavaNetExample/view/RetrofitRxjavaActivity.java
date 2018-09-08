@@ -147,10 +147,8 @@ public class RetrofitRxjavaActivity extends AppCompatActivity {
         //1.创建Retrifit实例
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://fy.iciba.com/")
-                //支持json解析
-                .addConverterFactory(GsonConverterFactory.create())
-                //支持rxjava
-                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
+                .addConverterFactory(GsonConverterFactory.create())//支持json解析
+                .addCallAdapterFactory(RxJava2CallAdapterFactory.create())//支持rxjava
                 .build();
 
 
